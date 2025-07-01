@@ -1,37 +1,28 @@
-# Merchant Management Admin Portal - Test Cases & Acceptance Criteria
+# BPG Frontend - Test Cases & Acceptance Criteria
 
-This folder contains the comprehensive test documentation for the **Merchant Management Admin Portal**, a role-based system with two main user roles:
+This folder contains the test cases and acceptance criteria for the **BPG Frontend**, which allows merchants to pay fees using:
 
-- **Maker:** Responsible for creating and editing merchant records.
-- **Approver:** Responsible for approving or rejecting the merchant records submitted by Makers.
-
----
-
-## Contents
-
-- Test cases for Maker and Approver functionalities
-- Acceptance criteria for merchant record workflows
-- Validation and approval flows
-- Role-based UI and permissions
+- **Smart Banking**
+- **Third-Party Payment Gateway**
 
 ---
 
-## Key Features Tested
+## Features Covered
 
-- Merchant record creation, editing, and validation by Makers
-- Approval and rejection flows by Approvers
-- Locking and unlocking of merchant records
-- Remarks and status tracking on merchant records
+- Merchant fee payment workflows
+- Integration with banking and third-party payment systems
+- UI validations and error handling
+- Payment confirmation and status updates
 
 ---
 
 ## How to Use
 
-Open the Excel files for detailed step-by-step test cases and expected results.
+Review the test cases for step-by-step instructions to validate payment flows and acceptance criteria to understand feature requirements.
 
 ---
 
 ## Notes
 
-- Role-specific test cases are clearly separated.
-- Test data and prerequisites are mentioned within individual test case files.
+- Focus on end-to-end payment processing accuracy.
+- Validate error scenarios for failed transactions.
